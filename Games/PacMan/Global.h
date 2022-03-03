@@ -1,0 +1,49 @@
+#pragma once
+
+
+/* File foo.  */
+#ifndef GLOBAL_HEADER
+#define GLOBAL_HEADER
+
+
+#define	SCREEN_WIDTH    900
+#define SCREEN_HEIGHT  1000
+
+
+#define	CANVAS_WIDTH   750
+#define CANVAS_HEIGHT  950
+
+
+#define	LIMIT_AREA_MARGIN                   50
+
+#define	LIMIT_AREA_HORIZONTAL_MARGIN        (SCREEN_WIDTH - CANVAS_WIDTH) / 2
+#define	LIMIT_AREA_VERTICAL_MARGIN			(SCREEN_HEIGHT - CANVAS_HEIGHT) / 2         
+
+#define	LIMIT_AREA_LEFT						LIMIT_AREA_HORIZONTAL_MARGIN
+#define	LIMIT_AREA_RIGHT					CANVAS_WIDTH + LIMIT_AREA_HORIZONTAL_MARGIN 
+#define	LIMIT_AREA_TOP						LIMIT_AREA_VERTICAL_MARGIN
+#define	LIMIT_AREA_BOTTOM					CANVAS_HEIGHT + LIMIT_AREA_VERTICAL_MARGIN
+
+#define GHOSTS_TEXTURE_RATIO			    20
+
+const bool  DEBUG_DISPLAY_SPRITES_BOUNDARY = false;
+
+
+
+#define  EXTERNAL_BORDER_TICKNESS			      15
+#define  INTERNAL_BORDER_TICKNESS			      50
+
+#define  CORIDOR_WIDTH							 100
+
+
+#define  TOTAL_ROWS								  19
+#define  TOTAL_COLUMNS							  15
+
+
+#define  TOTAL_NUMBER_GHOSTS					   4
+
+
+
+#define	 OK						0
+
+#endif /* !FILE_FOO_SEEN */
